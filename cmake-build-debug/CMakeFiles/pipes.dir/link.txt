@@ -1,0 +1,3 @@
+D:\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\pipes.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\pipes.dir/objects.a @CMakeFiles\pipes.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pipes.dir/objects.a -Wl,--no-whole-archive -o pipes.exe -Wl,--out-implib,libpipes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pipes.dir\linklibs.rsp
